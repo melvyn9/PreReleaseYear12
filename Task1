@@ -1,15 +1,1 @@
-#Task1.1
-StudentNameandEmail = []
-repeat = int(input("Please enter the number of times you want to input the data: "))
 
-
-for i in range(repeat):
-    Name = input("Please enter the name of the student: ")
-    Email = input("Please enter the email address of the student: ")
-    NameandEmail = Name+ "         " + Email
-    StudentNameandEmail.append(NameandEmail)
-    print("{0:<10}\t{1:<11}".format("Name","Email"))
-    for i in StudentNameandEmail:
-        print(i)
-
-#Task1.2
